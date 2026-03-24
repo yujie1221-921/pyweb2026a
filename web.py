@@ -31,9 +31,7 @@ def today():
 def about():
 	return render_template("about.html")
 
-@app.route("/welcome")
-def welcome():
-	return render_template("welcome.html",name="蔡伃捷")
+
 
 @app.route("/welcome", methods=["GET"])
 def welcome():
